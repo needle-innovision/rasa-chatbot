@@ -1,5 +1,6 @@
 ## References
 - https://github.com/RasaHQ/rasa_nlu
+- https://rasa.com/docs/nlu/quickstart/
 - https://rasa.com/docs/nlu/0.12.0/tutorial/
 - https://itnext.io/building-a-chatbot-with-rasa-9c3f3c6ad64d
 
