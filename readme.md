@@ -9,6 +9,9 @@
 ## Command 2 - Run the server
 `python3 -m rasa_nlu.server --path projects`
 
+## Testing 3 - Postman
+- [GET] `http://localhost:5000/parse?q=hi`
+
 ## Tool to generate the dataset
 - https://rasahq.github.io/rasa-nlu-trainer/
 - https://github.com/RasaHQ/rasa-nlu-trainer
