@@ -8,7 +8,8 @@
 `python3 -m rasa_nlu.train --config config_spacy.yml --data demo-rasa.json --path projects`
 
 ## Command 2 - Run the server
-`python3 -m rasa_nlu.server --path projects`
+1. `python3 -m rasa_nlu.server --path projects` - Run the server without logs
+2. `python3 -m rasa_nlu.server --path projects --response_log logs` - This will run the server and will also create a log file of the requests made by the user
 
 ## Testing 3 - Postman
 - [GET] `http://localhost:5000/parse?q=hi`
